@@ -24,10 +24,61 @@ nav a:hover{
 }
 .info{
     text-align: center;
-    font-size: 22px;
+    background-color: azure;
+    font-size: 27px;
+    padding: 15px
 }
-h3{
+.hh3{
     color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.Tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    
+
+}
+.tarjetas{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(169, 206, 193);
+    box-shadow: 2px 2px 10px black;
+
+}
+.tarjetas:hover{
+    background-color: lightgray;
+    box-shadow: 0px 5px 15px black;
+    transform: scale(1.05);
+
+}
+.tarjetas h2{
+    text-align: center;
+    font-size: 30px;
+}
+.tarjetas img{
+    width: 100%;
+    border-radius: 15px;
+}
+.tarjetas h3{
+    text-align: center;
+    font-size: 24px;
+}
+.tarjetas p{
     font-size: 20px;
-    margin-left: 100px;
+}
+footer{
+    background-color: #023047;
+    font-size: 23px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
